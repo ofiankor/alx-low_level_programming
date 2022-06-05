@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* this is main */
+/**
+* main - this is main
+*
+* return: always 0 (success) 
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
