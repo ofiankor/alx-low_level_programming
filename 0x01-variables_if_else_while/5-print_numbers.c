@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints numbers from 0 to 9.
  * Return: Always 0 (Success)
@@ -6,10 +7,13 @@
 int main(void)
 {
 	int i;
-	for (i = 0; i < 10; i++)
+	
+	i = 0;
+	while (i < 10)
 	{
-	     printf("%d", i);
+		printf("%d", num);
+		i++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
